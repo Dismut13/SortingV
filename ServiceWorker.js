@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-sorting-0.0.0.1";
 const contentToCache = [
-    "Build/SortingVk2.loader.js",
-    "Build/SortingVk2.framework.js.unityweb",
-    "Build/SortingVk2.data.unityweb",
-    "Build/SortingVk2.wasm.unityweb",
+    "Build/SortingVk3.loader.js",
+    "Build/SortingVk3.framework.js.unityweb",
+    "Build/SortingVk3.data.unityweb",
+    "Build/SortingVk3.wasm.unityweb",
     "TemplateData/style.css"
 
 ];

@@ -6,12 +6,12 @@
     <title>Unity WebGL Player | sorting</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="manifest" href="manifest.webmanifest">
 
     <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
   </head>
   <body>
-
-    <script>
+  <script>
       vkBridge.send("VKWebAppInit", {});
     </script>
 
@@ -24,6 +24,7 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
+
     </div>
     <script>
 
@@ -59,11 +60,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SortingVk2.loader.js";
+      var loaderUrl = buildUrl + "/SortingVk3.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SortingVk2.data.unityweb",
-        frameworkUrl: buildUrl + "/SortingVk2.framework.js.unityweb",
-        codeUrl: buildUrl + "/SortingVk2.wasm.unityweb",
+        dataUrl: buildUrl + "/SortingVk3.data.unityweb",
+        frameworkUrl: buildUrl + "/SortingVk3.framework.js.unityweb",
+        codeUrl: buildUrl + "/SortingVk3.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "sorting",
@@ -120,7 +121,6 @@
             };
 
       document.body.appendChild(script);
-
     </script>
   </body>
 </html>
