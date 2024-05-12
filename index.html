@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
   </head>
   <body>
-  <script>
+    <script>
       vkBridge.send("VKWebAppInit", {});
     </script>
 
@@ -28,7 +28,8 @@
        
     </div>
     <script>
-       var container = document.querySelector("#unity-container");
+
+      var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
@@ -60,11 +61,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SortingVK6.loader.js";
+      var loaderUrl = buildUrl + "/SortingVK7.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SortingVK6.data.unityweb",
-        frameworkUrl: buildUrl + "/SortingVK6.framework.js.unityweb",
-        codeUrl: buildUrl + "/SortingVK6.wasm.unityweb",
+        dataUrl: buildUrl + "/SortingVK7.data.unityweb",
+        frameworkUrl: buildUrl + "/SortingVK7.framework.js.unityweb",
+        codeUrl: buildUrl + "/SortingVK7.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "sorting",
